@@ -13,7 +13,7 @@ public class Object_Array {
 		a[3] = "Welcom";	//string
 		a[4] = "W";			//Char*/
 		
-		Object a[] = {100, 20.5, true, "Welcome", "w"};
+		Object a[] = {100, 20.5, true, "Welcome", "w"}; //Jaydeep 
 		
 		for(Object i : a)
 		{
