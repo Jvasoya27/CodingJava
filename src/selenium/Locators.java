@@ -17,19 +17,19 @@ public class Locators {
 		driver.manage().window().maximize();	// Maximize the web page
 		
 		// ID & Name locators
-		//WebElement searchbox = driver.findElement(By.id("email"));
+		WebElement searchbox = driver.findElement(By.id("email"));
 		
-		//searchbox.sendKeys("Jaydeep");
+		searchbox.sendKeys("Jaydeep");
 		
-		//driver.findElement(By.id("pass")).sendKeys("123456");
+		driver.findElement(By.id("pass")).sendKeys("123456");
 		
-		//driver.findElement(By.name("login")).click();
+		driver.findElement(By.name("login")).click();
 		
 		// Link Text and Partial Link Text
 		
-		//driver.findElement(By.linkText("Create a Page")).click();
+		driver.findElement(By.linkText("Create a Page")).click();
 		
-		driver.findElement(By.partialLinkText("Page")).click();
+		//driver.findElement(By.partialLinkText("Page")).click();
 		
 	}
 
