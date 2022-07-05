@@ -11,9 +11,9 @@ public class String_Char {
 		
 		System.out.println(s.length());
 		
-		int len = s.length();
+		int leng1 = s.length();
 		
-		for (int i = len-1; i>=0; i--)
+		for (int i = leng1-1; i>=0; i--)
 		{
 			rev = rev + s.charAt(i);
 					

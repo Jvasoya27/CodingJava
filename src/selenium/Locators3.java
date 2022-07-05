@@ -9,10 +9,11 @@ public class Locators3 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
+		
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\jayde\\eclipse\\java-2022-03\\eclipse\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		
-		driver.get("https://www.facebook.com/");
+		driver.get("https://www.facebook.com/");	//
 		driver.manage().window().maximize();	// Maximize the web page
 		
 		// Tag & ID
@@ -28,7 +29,11 @@ public class Locators3 {
 		//driver.findElement(By.cssSelector("[name=email]")).sendKeys("Smith");
 		
 		// Tag, Class & Attribute
-		 driver.findElement(By.cssSelector("input.inputtext[data-testid=royal_email]")).sendKeys("Smith");
+		driver.findElement(By.cssSelector("input.inputtext[data-testid=royal_email]")).sendKeys("Smith");
+		
+		
+	
+	
 	}
 
 }
