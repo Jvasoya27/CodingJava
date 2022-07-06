@@ -16,6 +16,19 @@ public class For_Loop {
 			System.out.println(a);
 		}
 		
+		System.out.println("--------------------");
+		
+		for(int j=1;j<=10;j++) 
+		{
+			
+			if(j%2 == 0) 
+			{
+				
+				System.out.println(j);
+			}
+			
+		}
+		
 	}
 
 }
