@@ -86,5 +86,7 @@
 	<classpathentry kind="lib" path="C:/Users/jayde/eclipse/java-2022-03/eclipse/selenium-java-4.2.2/lib/opentelemetry-semconv-1.14.0-alpha.jar"/>
 	<classpathentry kind="lib" path="C:/Users/jayde/eclipse/java-2022-03/eclipse/selenium-java-4.2.2/lib/reactive-streams-1.0.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/jayde/eclipse/java-2022-03/eclipse/selenium-java-4.2.2/lib/slf4j-api-1.7.36.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SeleniumProject"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/SelProject"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

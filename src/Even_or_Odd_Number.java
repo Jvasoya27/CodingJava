@@ -1,4 +1,3 @@
-
 public class Even_or_Odd_Number {
 
 	public static void main(String[] args) {
