@@ -21,6 +21,18 @@ public class String_Char {
 		
 		System.out.println ("Reversed string is : " + rev);
 		
+		System.out.println("--------------------------------------------------");
+		
+		
+		for (int i=0; i<=10; i++) {
+			
+			if(i%2==0) {
+				
+				System.out.println( i);
+				
+			}
+			
+		}
 		
 	}
 	
