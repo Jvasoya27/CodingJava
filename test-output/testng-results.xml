@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-09T22:16:12 EDT" name="Suite" finished-at="2022-07-09T22:16:19 EDT" duration-ms="7846">
+    <groups>
+    </groups>
+    <test started-at="2022-07-09T22:16:12 EDT" name="Test" finished-at="2022-07-09T22:16:19 EDT" duration-ms="7846">
+      <class name="TestNg.ParameterTest">
+        <test-method signature="yahooLoginTest(java.lang.String,java.lang.String)[pri:0, instance:TestNg.ParameterTest@6572421]" started-at="2022-07-09T22:16:12 EDT" name="yahooLoginTest" finished-at="2022-07-09T22:16:19 EDT" duration-ms="7817" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://login.yahoo.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Jaydeep@yahoo.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- yahooLoginTest -->
+      </class> <!-- TestNg.ParameterTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
